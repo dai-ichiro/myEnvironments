@@ -1,10 +1,12 @@
 ### CUDA 11.6
 ~~~
+pip install wheel
 pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/SadTalker/requirements_cu116.txt
 ~~~
 
 ### CUDA 11.7
 ~~~
+pip install wheel
 pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/SadTalker/requirements_cu117.txt
 ~~~
 
