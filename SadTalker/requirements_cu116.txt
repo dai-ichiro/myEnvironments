@@ -1,5 +1,4 @@
 --extra-index-url https://download.pytorch.org/whl/cu116
-wheel==0.40.0
 absl-py==1.4.0
 addict==2.4.0
 aiofiles==23.1.0
