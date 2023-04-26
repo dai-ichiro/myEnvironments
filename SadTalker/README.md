@@ -1,4 +1,4 @@
-### CUDA 11.6 (Ubuntu 22.04  Python3.10)
+### CUDA 11.6 (Ubuntu 22.04  Python3.10  torch==1.13.1)
 ~~~
 pip install wheel
 pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/SadTalker/requirements_cu116.txt
