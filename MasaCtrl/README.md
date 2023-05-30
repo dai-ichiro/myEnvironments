@@ -2,3 +2,6 @@
 ~~~
 pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/MasaCtrl/requirements.txt
 ~~~
+
+### Link to my blog
+https://touch-sp.hatenablog.com/entry/2023/05/30/114132
