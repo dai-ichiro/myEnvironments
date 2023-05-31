@@ -5,7 +5,7 @@ pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/
 
 ### How to use
 ~~~
-python test.py ^
+python masactrl_w_adapter_video.py ^
 --which_cond openpose ^
 --cond_path_src 0.png ^
 --cond_path pose ^
