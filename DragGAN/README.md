@@ -3,7 +3,7 @@
 
 ~~~
 Ubuntu 20.04 on WSL2
-Python3.9
+Python 3.9
 torch==1.12.1+cu113
 ~~~
 
@@ -15,7 +15,7 @@ pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/
 
 ~~~
 Ubuntu 20.04 on WSL2
-Python3.9
+Python 3.9
 torch==1.13.1+cu116
 ~~~
 
