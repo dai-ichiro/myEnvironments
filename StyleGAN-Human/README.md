@@ -28,5 +28,6 @@ pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/
 ~~~
 pip install paddlepaddle-gpu==2.4.2.post116 -f https://www.paddlepaddle.org.cn/whl/linux/mkl/avx/stable.html
 pip install paddleseg==2.8.0
+pip install wandb==0.15.4
 ~~~
 
