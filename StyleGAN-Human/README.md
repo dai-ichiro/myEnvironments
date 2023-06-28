@@ -16,7 +16,7 @@ pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/
 
 ~~~
 Ubuntu 20.04 on WSL2
-Python 3.8
+Python 3.8 or 3.9
 torch==1.12.1+cu116
 ~~~
 
