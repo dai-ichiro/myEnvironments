@@ -1,5 +1,5 @@
 
-### CUDA 11.7 + cuDNN 8.5.0
+### CUDA 11.7.1 + cuDNN 8.5.0
 
 ~~~
 Ubuntu 22.04 on WSL2
