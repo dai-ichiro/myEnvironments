@@ -9,7 +9,9 @@ torch==1.13.1+cu116
 ~~~
 
 ~~~
+pip install -U setuptools wheel
 pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/layered-neural-atlases/requirements_cu116.txt
+pip install git+https://github.com/facebookresearch/detectron2
 ~~~
 
 ### Link to my blog
