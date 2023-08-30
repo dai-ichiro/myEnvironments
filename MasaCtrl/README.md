@@ -1,8 +1,12 @@
 ### CUDA 11.7 (Windows11  Python3.10  torch==2.0.1+cu117)
+#### For SD 1.4 or 1.5
 ~~~
 pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/MasaCtrl/requirements.txt
 ~~~
-
+#### For SDXL
+~~~
+pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/MasaCtrl/requirements_sdxl.txt
+~~~
 ### How to use
 ~~~
 python masactrl_w_adapter_video.py ^
