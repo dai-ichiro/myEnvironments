@@ -4,3 +4,7 @@
 ~~~
 pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/roop/requirements_cu118.txt
 ~~~
+#### how to use
+~~~
+python run.py --execution-provider cuda
+~~~
