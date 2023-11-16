@@ -8,3 +8,6 @@ torch==2.1.1+cu121
 ~~~
 pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/AnimateDiff_SDXL/requirements_cu121.txt
 ~~~
+
+### Link to my blog
+https://touch-sp.hatenablog.com/entry/2023/11/16/235103
