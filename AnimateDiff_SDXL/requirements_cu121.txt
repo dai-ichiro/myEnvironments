@@ -11,7 +11,7 @@ charset-normalizer==2.1.1
 click==8.1.7
 colorama==0.4.6
 decord==0.6.0
-diffusers==0.23.0
+diffusers==0.23.1
 docker-pycreds==0.4.0
 easydict==1.11
 einops==0.7.0
