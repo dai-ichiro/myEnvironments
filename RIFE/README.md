@@ -7,3 +7,6 @@ pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/
 ~~~
 pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/RIFE/requirements_cu121.txt
 ~~~
+
+### Link to my Blog
+https://touch-sp.hatenablog.com/entry/2023/10/12/182000
