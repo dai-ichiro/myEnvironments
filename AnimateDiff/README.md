@@ -25,7 +25,7 @@ pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/
 ~~~
 Windows 11
 Python 3.11
-torch==2.0.2+cu118
+torch==2.0.1+cu118
 ~~~
 
 ~~~
