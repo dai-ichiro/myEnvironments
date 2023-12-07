@@ -10,15 +10,43 @@ from densepose.vis.extractor import DensePoseResultExtractor
 from densepose.structures import DensePoseDataRelative
 from densepose.vis.base import MatrixVisualizer
 
+import os
+from torchvision.datasets.utils import download_url
+
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    '--input',
+    type=str,
+    required=True,
+    help="input video name"
+)
+args = parser.parse_args()
+
+pretrained_param = "densepose/model_final_162be9.pkl"
+url = "https://dl.fbaipublicfiles.com/densepose/densepose_rcnn_R_50_FPN_s1x/165712039/model_final_162be9.pkl"
+fname = os.path.basename(url)
+download_url(url, root = 'densepose', filename = fname)
+
+base_densepose_yaml = "densepose/Base-DensePose-RCNN-FPN.yaml"
+url = "https://raw.githubusercontent.com/facebookresearch/detectron2/main/projects/DensePose/configs/Base-DensePose-RCNN-FPN.yaml"
+fname = os.path.basename(url)
+download_url(url, root = 'densepose', filename = fname)
+
+densepose_yaml = "densepose/densepose_rcnn_R_50_FPN_s1x.yaml"
+url = "https://raw.githubusercontent.com/facebookresearch/detectron2/main/projects/DensePose/configs/densepose_rcnn_R_50_FPN_s1x.yaml"
+fname = os.path.basename(url)
+download_url(url, root = 'densepose', filename = fname)
+
 cfg = get_cfg()
 add_densepose_config(cfg)
 
-cfg.merge_from_file("./detectron2/projects/DensePose/configs/densepose_rcnn_R_50_FPN_s1x.yaml")
-cfg.MODEL.WEIGHTS = "model_final_162be9.pkl"
+cfg.merge_from_file(densepose_yaml)
+cfg.MODEL.WEIGHTS = pretrained_param
 
 predictor = DefaultPredictor(cfg)
 
-cap = cv2.VideoCapture("trim512.mp4")
+cap = cv2.VideoCapture(args.input)
 
 img_width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 img_height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
