@@ -1,4 +1,4 @@
-### nvironment
+### Environment
 ~~~
 Ubuntu 22.04 on WSL2
 Python 3.10
