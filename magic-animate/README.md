@@ -10,6 +10,9 @@ torch==2.0.1+cu118
 pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/magic-animate/requirements_cu118.txt
 ~~~
 #### option (for Detectron2-DensePose)
+~~~
+pip install git+https://github.com/facebookresearch/detectron2@main#subdirectory=projects/DensePose
+~~~
 
 ### Preparation
 ~~~
