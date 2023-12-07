@@ -21,3 +21,8 @@ cd magic-animate
 wget https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/magic-animate/download_model.py
 python download_model.py
 ~~~
+
+### Link to my blog
+https://touch-sp.hatenablog.com/entry/2023/12/06/121903
+
+https://touch-sp.hatenablog.com/entry/2023/12/07/221215
