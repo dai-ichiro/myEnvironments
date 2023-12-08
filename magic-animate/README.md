@@ -22,6 +22,12 @@ wget https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/magic-anim
 python download_model.py
 ~~~
 
+### How to make densepose motion video from original video
+very simple!!
+~~~
+python video2denseposevideo.py --input dance26.mp4
+~~~
+
 ### Link to my blog
 https://touch-sp.hatenablog.com/entry/2023/12/06/121903
 
