@@ -3,7 +3,6 @@ accelerate==0.25.0
 certifi==2022.12.7
 charset-normalizer==2.1.1
 colorama==0.4.6
-decord==0.6.0
 diffusers==0.25.0
 einops==0.7.0
 filelock==3.9.0
