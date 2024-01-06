@@ -20,3 +20,6 @@ torch==1.13.1+cu117
 ~~~
 pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/ControlVideo/requirements_cu117.txt
 ~~~
+
+### Link to my blog
+https://touch-sp.hatenablog.com/entry/2023/07/16/205524
