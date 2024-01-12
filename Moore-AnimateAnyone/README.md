@@ -8,3 +8,11 @@ Python 3.10
 ```text
 pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/Moore-AnimateAnyone/requirements.txt
 ```
+# Download weights and scripts
+```text
+git clone https://github.com/MooreThreads/Moore-AnimateAnyone
+python download_animateanyone_weights.py
+python download_image_encoder.py
+python download_vae.py
+python download_sd15_pipeline.py
+```
