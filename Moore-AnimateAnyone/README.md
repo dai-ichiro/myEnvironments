@@ -16,3 +16,4 @@ python download_image_encoder.py
 python download_vae.py
 python download_sd15_pipeline.py
 ```
+Download dwpose weights (`dw-ll_ucoco_384.onnx`, `yolox_l.onnx`) following [this](https://github.com/IDEA-Research/DWPose?tab=readme-ov-file#-dwpose-for-controlnet).
