@@ -1,4 +1,8 @@
-### CUDA 11.8 (Ubuntu 22.04  Python3.10  torch==2.0.1+cu118  espnet==202304)
+### Ubuntu 22.04 + CUDA 11.8 (Python3.10  torch==2.0.1+cu118  espnet==202304)
 ~~~
 pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/ESPnet/requirements.txt
+~~~
+### Windows 11 + CUDA 11.8 (Python3.10  torch==2.4.1+cu118  espnet==202402)
+~~~
+pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/ESPnet/requirements_win.txt
 ~~~
