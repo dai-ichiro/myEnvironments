@@ -7,3 +7,7 @@ pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/main/
 ~~~
 pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/refs/heads/main/ESPnet/requirements_win.txt
 ~~~
+### Windows 11 + CUDA 12.4 (Python3.10  torch==2.4.1+cu124  espnet==202503)
+~~~
+pip install -r https://raw.githubusercontent.com/dai-ichiro/myEnvironments/refs/heads/main/ESPnet/requirements_win_202503.txt
+~~~
